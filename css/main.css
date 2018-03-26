@@ -2,7 +2,10 @@
     height: 2000px;
 }
 /*nav bar*/
+.navbar-default{
+    height: 55px;
 
+}
 .navbar-default .navbar-brand {
     color: #fff;
 }

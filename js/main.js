@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    // paralax
     $(window).scroll(function (){
         var wScroll = $(this).scrollTop();
 
@@ -9,16 +9,16 @@ $(document).ready(function(){
         $('.back').css({
             'transform' : 'translate(0px, '+ wScroll /20 +'%)'
         });
-
+        // nav scroll
         if ($(document).scrollTop() > 20) {
 
             $('.navbar-default').css({
-               'background': '#fff',
-               'border'  : '#e7e7e7',
+               'background': '#000',
+               'border'  : 'none',
                
             });
             $('.navbar-nav>li>a').css({
-                'color' : '#000'
+                'color' : '#fff'
             });
         }else {
             $('.navbar-default').css({
