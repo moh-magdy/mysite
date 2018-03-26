@@ -1,10 +1,19 @@
 .cont{
     height: 2000px;
 }
+/*nav bar*/
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 24px
+}
+/* background */
 .bird-box{
     position: relative;
     height: 600px;
-    background-image: url(../imgs/bird-bg.jpg);
     background-size: auto, 600px;
     background-position: top, center;
     background-attachment: fixed;
@@ -21,25 +30,15 @@
     top: 50%;
     margin-top: -50px;
 }
-.fore-bird {
-    width: 960px;
-    height: 733px;
-    /*background-color: rgba(255, 192, 203, 0.24);*/
-    background-image: url(../imgs/fore-bird.png);
-    background-repeat: no-repeat;
-    background-position: right,bottom;
-    position: absolute;
-    left: 50%;
-    margin-left: -480px;
-    top: 380px;
+.back {
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgs/back.jpg);
+    background-size: cover;
+    transition-timing-function: ease-in-out
 }
-.back-bird {
-    width: 960px;
-    height: 298px;
-    background-image: url(../imgs/back-bird.png);
-    background-repeat: no-repeat;
-    background-position: top, left;
-    position: absolute;
-    left: 50%;
-    margin-left: -770px;
+.over {
+    background-color: rgba(5, 0, 0, 0.1);
+    height: 100%;
+    width: 100%
 }
