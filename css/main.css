@@ -1,4 +1,4 @@
-.cont{
+body{
     height: 2000px;
 }
 /*nav bar*/
@@ -41,7 +41,22 @@
     transition-timing-function: ease-in-out
 }
 .over {
-    background-color: rgba(5, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%
+}
+/* what we do sect */
+.we-do {
+    background-color: #fff;
+    min-height: 500px;
+    margin-top: 40px;
+
+}
+.we-do .text .img {
+    padding-top: 400px
+}
+.we-do .text h2  {
+    font-size: 45px;
+    font-weight: bold;
+    color: #000
 }

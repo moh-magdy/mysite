@@ -10,8 +10,7 @@ $(document).ready(function(){
             'transform' : 'translate(0px, '+ wScroll /20 +'%)'
         });
         // nav scroll
-        if ($(document).scrollTop() > 20) {
-
+        if ($(document).scrollTop() >10) {
             $('.navbar-default').css({
                'background': '#000',
                'border'  : 'none',
@@ -27,7 +26,7 @@ $(document).ready(function(){
              });
              $('.navbar-nav>li>a').css({
                 'color' : '#fff'
-            })
+            });
 
         }
         
