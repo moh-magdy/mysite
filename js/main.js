@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     $('.page').on('click',function(){
         $(this).toggleClass( "highlight" );
-    });
+    }); 
         
     
     // paralax

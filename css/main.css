@@ -81,6 +81,19 @@ body{
     font-weight: bolder;
     
 }
+@keyframes open {
+    0%{
+        height: 200px;
+    }
+    60% {
+       height:  300PX
+    }
+    100%{
+        height: auto;
+    }
+}
 .highlight {
-    height: auto;
+   
+    animation: open 2s ease  alternate forwards;    
+    
 }
