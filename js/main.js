@@ -11,8 +11,6 @@ $(document).ready(function(){
         });
         
 
-        
-
     });
     // nav scroll
     var scroll_start = 0;
