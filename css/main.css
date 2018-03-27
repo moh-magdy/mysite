@@ -4,6 +4,8 @@ body{
 /*nav bar*/
 .navbar-default{
     height: 55px;
+    background-color: #f8f8f800;
+    border-color: #e7e7e700;
 
 }
 .navbar-default .navbar-brand {
@@ -45,6 +47,11 @@ body{
     height: 100%;
     width: 100%
 }
+#startchange {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
 /* what we do sect */
 .we-do {
     background-color: #fff;
@@ -60,7 +67,18 @@ body{
     font-weight: bold;
     color: #000
 }
-.navbar-default {
-    background-color: #f8f8f800;
-    border-color: #e7e7e700;
+/* ------ test -------*/
+.page {
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 100px;
+    background: #555
+}
+.page h2 {
+    font-size: 100px;
+    font-weight: bolder
+}
+.highlight {
+    height: auto;
 }

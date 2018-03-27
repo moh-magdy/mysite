@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+
+    $('.page').on('click',function(){
+        $(this).toggleClass( "highlight" );
+    });
+        
+    
     // paralax
     $(window).scroll(function (){
         var wScroll = $(this).scrollTop();
@@ -9,6 +16,8 @@ $(document).ready(function(){
         $('.back').css({
             'transform' : 'translate(0px, '+ wScroll /20 +'%)'
         });
+        
+
         
 
     });
@@ -28,7 +37,7 @@ $(document).ready(function(){
                     $('.navbar-default').css({
                         'background-color': 'transparent',
                         'border'  : 'none'
-                });
+                     });
                 }
             });
         }
