@@ -70,14 +70,16 @@ body{
 /* ------ test -------*/
 .page {
     height: 200px;
-    text-align: center;
+   /* text-align: center;*/
     overflow: hidden;
     padding-top: 100px;
-    background: #555
+    background: #555;
+    cursor: pointer;
 }
 .page h2 {
     font-size: 100px;
-    font-weight: bolder
+    font-weight: bolder;
+    
 }
 .highlight {
     height: auto;
