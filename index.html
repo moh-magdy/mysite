@@ -6,10 +6,12 @@
     <!-- device-width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>newsite</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />    
     <link rel="stylesheet" href="css/fontawesome-all.min.css"/>
     <link rel="stylesheet" href="css/main.css" />
+    
     <!-- for ie8 ie9 --> 
     <!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
     <!--[if lt IE 9]>
@@ -18,80 +20,57 @@
     <![endif]-->
   </head>
   <body>
-    <!-- START NAV -->
-      <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Brand</a>
-            </div>
-        
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li ><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-              <!-- END NAV -->
-              
-              <!-- START BACKGROUND -->
-              
-      <header class="bird-box">
-          <div class="back">   
-            <div class="over"></div>
-         </div>
-        
-        <div class="logo"></div>
-        <div id="startchange" ></div>
-      </header>
-      
-      <!-- END BACKGROUND -->
-      <div class="page" id="page">
-        <div class="container">
-        <h2>what we do</h2>
-        <p class="lead">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam deleniti nisi excepturi atque, magni incidunt? Voluptas, fuga. Dolores quisquam consequatur, adipisci veritatis dicta, repellendus ipsa aut, nam quibusdam at cupiditate.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam deleniti nisi excepturi atque, magni incidunt? Voluptas, fuga. Dolores quisquam consequatur, adipisci veritatis dicta, repellendus ipsa aut, nam quibusdam at cupiditate.
-        </p>            
+      <div class="container-fluid">
+    
+    <!-- START sidenav -->
+    <div class="row">
+      <nav class="text-center hidden-sm hidden-xs col-md-1">
+        <div class="home">
+          <a href="#">
+            <i class="fas fa-home fa-3x"></i>
+            <span class="text">HOME</span>
+          </a> 
         </div>
-      </div>
 
-      <!-- START SECT WHAT WE DO -->
+        <div class="design">
+            <a href="#">
+              <i class="fas fa-Paint-Brush fa-3x"></i>
+              <span class="text">DESIGN</span>
+            </a>
+          </div>
 
-      <div class="we-do">
-          <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-6 text"> 
-                <h2>what we do</h2>
-                <h3>semple things that work.</h3>
-                <p class="lead">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam deleniti nisi excepturi atque, magni incidunt? Voluptas, fuga. Dolores quisquam consequatur, adipisci veritatis dicta, repellendus ipsa aut, nam quibusdam at cupiditate.
-                </p>
-              </div>
-            <div class="col-xs-12 col-md-6 img">hi2</div>
+        <div class="developing">
+          <a href="#">
+            <i class="fas fa-code fa-3x"></i>
+            <span class="text s">DEVELOP</span>
+          </a>
+        </div>
+
+        <div class="contact">
+          <a href="#">
+            <i class="fas fa-envelope fa-3x"></i>
+            <span class="text">CONTACT US</span>
+          </a>
+        </div>         
+      </nav>
+    <!-- end sideNAV -->
+    <!-- start main page -->
+    <div class="page col-md-11">
+        <div class="row">
+            
+          <div class="col-sm-5 home-text">
+              <h1>sand themes</h1>
+              <p class="lead">You imagine it.</p>
+              <p class="lead">We build it.</p>
+          </div>
+            <div class="col-sm-7 home-img">
+              <img class="img-responsive" src="imgs/div2.svg" alt="">
+            </div>
           </div>
         </div>
       </div>
+    </div>
+     
     <!-- jq -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
