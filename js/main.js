@@ -1,14 +1,15 @@
 $(document).ready(function(){
 
-    
-        $('.page, nav').css('height', $(window).height());
+   /*
+        $('.backg').css('height', $(window).height());
         // Comma, not colon ----^
     $(window).resize(function(){
-        $('.page, nav').css('height', $(window).height());
+        $('.backg').css('height', $(window).height());
+      
         // Comma, not colon ----^
     });
     $('nav').hover(function(){
         $('.text').slideToggle(500);
         $('nav a').toggleClass('color') 
-    });
+    });*/
 });
