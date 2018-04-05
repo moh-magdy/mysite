@@ -1,4 +1,10 @@
-$(document).ready(function(){
+
+    $(document).ready(function() {
+        $('.image-link').magnificPopup({
+            type:'image'
+        });
+        
+    });
 
    /*
         $('.backg').css('height', $(window).height());
@@ -12,4 +18,3 @@ $(document).ready(function(){
         $('.text').slideToggle(500);
         $('nav a').toggleClass('color') 
     });*/
-});
